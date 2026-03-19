@@ -1,7 +1,7 @@
 class SearchCli < Formula
   desc "Agent-friendly multi-provider search CLI (Brave, Serper, Exa, Jina, Firecrawl)"
   homepage "https://github.com/199-biotechnologies/search-cli"
-  url "https://github.com/199-biotechnologies/search-cli.git", tag: "v0.1.0"
+  url "https://github.com/199-biotechnologies/search-cli.git", tag: "v0.2.0"
   license "MIT"
   head "https://github.com/199-biotechnologies/search-cli.git", branch: "master"
 
