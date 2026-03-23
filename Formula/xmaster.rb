@@ -1,0 +1,18 @@
+class Xmaster < Formula
+  desc "Enterprise-grade X/Twitter CLI — post, reply, like, retweet, DM, search, and more"
+  homepage "https://github.com/199-biotechnologies/xmaster"
+  url "https://github.com/199-biotechnologies/xmaster.git", tag: "v0.1.0"
+  license "MIT"
+  head "https://github.com/199-biotechnologies/xmaster.git", branch: "main"
+
+  depends_on "rust" => :build
+
+  def install
+    system "cargo", "install", *std_cargo_args
+  end
+
+  test do
+    assert_match "xmaster", shell_output("#{bin}/xmaster --version")
+    assert_match "success", shell_output("#{bin}/xmaster agent-info")
+  end
+end
