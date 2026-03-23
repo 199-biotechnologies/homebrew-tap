@@ -1,7 +1,7 @@
 class SearchCli < Formula
   desc "Agent-friendly multi-provider search CLI (11 providers, 14 modes)"
   homepage "https://github.com/199-biotechnologies/search-cli"
-  url "https://github.com/199-biotechnologies/search-cli.git", tag: "v0.3.1"
+  url "https://github.com/199-biotechnologies/search-cli.git", tag: "v0.4.0"
   license "MIT"
   head "https://github.com/199-biotechnologies/search-cli.git", branch: "master"
 
