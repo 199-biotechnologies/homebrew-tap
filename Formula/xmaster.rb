@@ -1,7 +1,7 @@
 class Xmaster < Formula
   desc "Enterprise-grade X/Twitter CLI — post, reply, like, retweet, DM, search, and more"
   homepage "https://github.com/199-biotechnologies/xmaster"
-  url "https://github.com/199-biotechnologies/xmaster.git", tag: "v0.1.0"
+  url "https://github.com/199-biotechnologies/xmaster.git", tag: "v0.8.0"
   license "MIT"
   head "https://github.com/199-biotechnologies/xmaster.git", branch: "main"
 
