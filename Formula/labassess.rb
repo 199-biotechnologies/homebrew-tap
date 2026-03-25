@@ -1,6 +1,6 @@
 class Labassess < Formula
   desc "Biomarker range checker — score against longevity-optimal ranges"
-  homepage "https://github.com/199-biotechnologies/labassess"
+  homepage "https://github.com/199-biotechnologies/labassess-cli"
   url "https://github.com/199-biotechnologies/labassess.git", tag: "v0.1.0"
   license "Proprietary"
   head "https://github.com/199-biotechnologies/labassess.git", branch: "main"

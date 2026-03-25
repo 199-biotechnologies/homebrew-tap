@@ -1,6 +1,6 @@
 class Labparse < Formula
   desc "Lab result parser — PDF/CSV/text to structured biomarker JSON"
-  homepage "https://github.com/199-biotechnologies/labparse"
+  homepage "https://github.com/199-biotechnologies/labparse-cli"
   url "https://github.com/199-biotechnologies/labparse.git", tag: "v0.1.0"
   license "Proprietary"
   head "https://github.com/199-biotechnologies/labparse.git", branch: "main"

@@ -1,6 +1,6 @@
 class Labstore < Formula
   desc "Patient biomarker database — longitudinal tracking for longevity assessment"
-  homepage "https://github.com/199-biotechnologies/labstore"
+  homepage "https://github.com/199-biotechnologies/labstore-cli"
   url "https://github.com/199-biotechnologies/labstore.git", tag: "v0.1.0"
   license "Proprietary"
   head "https://github.com/199-biotechnologies/labstore.git", branch: "main"
