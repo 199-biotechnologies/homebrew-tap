@@ -1,8 +1,8 @@
 class EmailCli < Formula
   desc "Agent-friendly email CLI for Resend (50+ commands, structured JSON, semantic exit codes)"
   homepage "https://github.com/199-biotechnologies/email-cli"
-  url "https://github.com/199-biotechnologies/email-cli/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "acaf95fc4608a195ea0521c7bd7ba6d48c9a1d146d5589af310e6089117ae112"
+  url "https://github.com/199-biotechnologies/email-cli/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "558039a7f2c08652be1bb67ee3aea7db1044a6c550143ea40c4b77e012ecf8b1"
   license "MIT"
   head "https://github.com/199-biotechnologies/email-cli.git", branch: "main"
 
