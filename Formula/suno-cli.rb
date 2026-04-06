@@ -2,7 +2,7 @@ class SunoCli < Formula
   desc "Generate AI music from your terminal — Suno v5.5 with tags, exclude, vocal control"
   homepage "https://github.com/199-biotechnologies/suno-cli"
   license "MIT"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
