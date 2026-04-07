@@ -2,27 +2,27 @@ class Suno < Formula
   desc "Generate AI music from your terminal — Suno v5.5 with voice personas, covers, remasters"
   homepage "https://github.com/199-biotechnologies/suno-cli"
   license "MIT"
-  version "0.5.1"
+  version "0.5.2"
 
   on_macos do
     on_arm do
       url "https://github.com/199-biotechnologies/suno-cli/releases/download/v#{version}/suno-aarch64-apple-darwin.tar.gz"
-      sha256 "a4aa6fb3034b23a161575696abb0c79e167ede16a7b3b6ff176586b5a64dabe6"
+      sha256 "3baac563637fadd999e39ec01244f8e5178d41f17900bdc272306695b9903d96"
     end
     on_intel do
       url "https://github.com/199-biotechnologies/suno-cli/releases/download/v#{version}/suno-x86_64-apple-darwin.tar.gz"
-      sha256 "e6ecf79d617d43bbb489bdaa7a7a90832fdcb7600f11467a6e2052caf2054090"
+      sha256 "1a7dca02ac7ff269c7c19f6ece0ef48a9b8c45dca82fd9bf16df01622e72bf84"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/199-biotechnologies/suno-cli/releases/download/v#{version}/suno-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "004faa343fe62d6580784f3e670adf6b31f0b70f6ad3d1a8cbcfc9905b7b3643"
+      sha256 "ee95c6edf5808c30f70b51e4954dec9a7791e6f0b3868e1af8f30882f4238e36"
     end
     on_intel do
       url "https://github.com/199-biotechnologies/suno-cli/releases/download/v#{version}/suno-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "649d0f35ab181a7c9916496199bbd02aea72f967ae4ffa8cf68e5c9674affe8e"
+      sha256 "3a148b6f0105fc56951f35939aa9ea39a5daefad32a0226242abc2ba862ffc52"
     end
   end
 
