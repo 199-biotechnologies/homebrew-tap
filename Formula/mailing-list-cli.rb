@@ -1,8 +1,8 @@
 class MailingListCli < Formula
   desc "Newsletter and mailing list management from the terminal. Built for AI agents on top of email-cli"
   homepage "https://github.com/199-biotechnologies/mailing-list-cli"
-  url "https://github.com/199-biotechnologies/mailing-list-cli/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "36f4bd2f77f93f17e3986df52fe0a567982588c080cb916c3d991027ac18facf"
+  url "https://github.com/199-biotechnologies/mailing-list-cli/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "db26e77a23c0102cdcd75825018a3bda7080c4d220f3357e24fdfc020f8bd106"
   license "MIT"
   head "https://github.com/199-biotechnologies/mailing-list-cli.git", branch: "main"
 
