@@ -1,22 +1,22 @@
 class Xmaster < Formula
   desc "Enterprise-grade X CLI — post, reply, like, retweet, DM, search, and more"
   homepage "https://github.com/199-biotechnologies/xmaster"
-  version "1.5.3"
+  version "1.6.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/199-biotechnologies/xmaster/releases/download/v1.5.3/xmaster-aarch64-darwin"
-      sha256 "18e5e297c6820fe307a4874b700bbb125cc60675423466de9dba2097ea815e41"
+      url "https://github.com/199-biotechnologies/xmaster/releases/download/v1.6.0/xmaster-aarch64-darwin"
+      sha256 "052ac90ff40b31aff72820475594705f78bfc97ad362892bf06c4e6cd95b84c7"
     else
-      url "https://github.com/199-biotechnologies/xmaster/releases/download/v1.5.3/xmaster-x86_64-darwin"
-      sha256 "afb9f61df2d2e3ea2fad2c56d924bca6112bfa4252aab938cba1988e4ba64b88"
+      url "https://github.com/199-biotechnologies/xmaster/releases/download/v1.6.0/xmaster-x86_64-darwin"
+      sha256 "4491fca65d702e7de506cf6da80423f877f3f66484d2f291b46742353c1a366f"
     end
   end
 
   on_linux do
-    url "https://github.com/199-biotechnologies/xmaster/releases/download/v1.5.3/xmaster-x86_64-linux"
-    sha256 "760b9c8bd715d2556ced0a9b2c91422828cf19c2a2492baa5b1c58e6091372bb"
+    url "https://github.com/199-biotechnologies/xmaster/releases/download/v1.6.0/xmaster-x86_64-linux"
+    sha256 "955ec261ae8ab1e2358e9fffc863073a40a0f299a5f6471c6bdb618a761c68bf"
   end
 
   def install
