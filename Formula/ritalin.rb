@@ -1,8 +1,8 @@
 class Ritalin < Formula
-  desc "Proof-carrying completion for AI coding agents"
+  desc "Executive function for AI coding agents"
   homepage "https://github.com/199-biotechnologies/ritalin"
-  url "https://github.com/199-biotechnologies/ritalin/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "6d3b63569ea347cc1f4c20617c5e347cfd4e91b4f7923ef754f10f1b619b917f"
+  url "https://github.com/199-biotechnologies/ritalin/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "5ece907533936f83d18f66737f9f5a0867b0088f0bcf66c557ebf919b0cba4a6"
   license "MIT"
   head "https://github.com/199-biotechnologies/ritalin.git", branch: "main"
 
