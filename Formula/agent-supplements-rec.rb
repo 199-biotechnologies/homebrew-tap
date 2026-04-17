@@ -1,9 +1,9 @@
 class AgentSupplementsRec < Formula
   desc "Curated supplement recommendations from scored biomarker data"
   homepage "https://github.com/199-biotechnologies/agent-supplements-rec"
-  url "https://github.com/199-biotechnologies/agent-supplements-rec.git", tag: "v0.1.0"
+  url "https://static.crates.io/crates/agent-supplements-rec/agent-supplements-rec-0.1.0.crate"
+  sha256 "9ad7c04573c50d73c3292c3a320acec140f9487618cd376bf1162e868efaf991"
   license "Proprietary"
-  head "https://github.com/199-biotechnologies/agent-supplements-rec.git", branch: "main"
 
   depends_on "rust" => :build
 

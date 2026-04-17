@@ -1,9 +1,9 @@
 class Labscript < Formula
   desc "Prescription PDF generator with e-signature and QR verification"
   homepage "https://github.com/199-biotechnologies/labscript-cli"
-  url "https://github.com/199-biotechnologies/labscript-cli.git", tag: "v0.1.0"
+  url "https://static.crates.io/crates/labscript/labscript-0.1.0.crate"
+  sha256 "933fb8d34ecff70f4f546258d97ec43cbf6f98b53250841450b0ed4075e79915"
   license "Proprietary"
-  head "https://github.com/199-biotechnologies/labscript-cli.git", branch: "main"
 
   depends_on "rust" => :build
 

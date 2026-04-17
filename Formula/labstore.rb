@@ -1,9 +1,9 @@
 class Labstore < Formula
-  desc "Patient biomarker database — longitudinal tracking for longevity assessment"
+  desc "Patient biomarker database CLI — longitudinal tracking, trends, and export"
   homepage "https://github.com/199-biotechnologies/labstore-cli"
-  url "https://github.com/199-biotechnologies/labstore.git", tag: "v0.1.0"
+  url "https://static.crates.io/crates/labstore/labstore-0.1.0.crate"
+  sha256 "024c840626a38b36e3d68b179dc7c581727bd39ce519892cd30f26f44218a748"
   license "Proprietary"
-  head "https://github.com/199-biotechnologies/labstore.git", branch: "main"
 
   depends_on "rust" => :build
 

@@ -1,9 +1,9 @@
 class Labnotes < Formula
   desc "Clinical notes and unified patient timeline"
   homepage "https://github.com/199-biotechnologies/labnotes-cli"
-  url "https://github.com/199-biotechnologies/labnotes-cli.git", tag: "v0.1.0"
+  url "https://static.crates.io/crates/labnotes/labnotes-0.1.0.crate"
+  sha256 "331cb1ae3a2cefcc38a43166f5b556f915ecd03ba92949d56870275e39244d73"
   license "Proprietary"
-  head "https://github.com/199-biotechnologies/labnotes-cli.git", branch: "main"
 
   depends_on "rust" => :build
 

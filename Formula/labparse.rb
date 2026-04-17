@@ -1,9 +1,9 @@
 class Labparse < Formula
-  desc "Lab result parser — PDF/CSV/text to structured biomarker JSON"
+  desc "Parse lab results into structured biomarker JSON"
   homepage "https://github.com/199-biotechnologies/labparse-cli"
-  url "https://github.com/199-biotechnologies/labparse.git", tag: "v0.1.0"
+  url "https://static.crates.io/crates/labparse/labparse-0.1.0.crate"
+  sha256 "48a5c0b37ff696b0015ef704996e643ff76c131c283f262a7acedaa4a08798f4"
   license "Proprietary"
-  head "https://github.com/199-biotechnologies/labparse.git", branch: "main"
 
   depends_on "rust" => :build
 
