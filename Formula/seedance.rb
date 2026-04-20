@@ -1,22 +1,22 @@
 class Seedance < Formula
   desc "Generate video with ByteDance Seedance 2.0 from the terminal. Agent-friendly."
   homepage "https://github.com/paperfoot/seedance-cli"
-  version "0.1.3"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/paperfoot/seedance-cli/releases/download/v0.1.3/seedance-aarch64-darwin"
-      sha256 "456853f2468db3a1886a527540886729c76abfadd52d5fa0afbc78cbf2d8b9da"
+      url "https://github.com/paperfoot/seedance-cli/releases/download/v0.2.0/seedance-aarch64-darwin"
+      sha256 "82090f4fdfe164be0b9f9f0924537b7fe3fde11b4d1aac4d437e4b3c580e59b1"
     else
-      url "https://github.com/paperfoot/seedance-cli/releases/download/v0.1.3/seedance-x86_64-darwin"
-      sha256 "2d751147897feefa6b8161880db40fd516be2a4b7e056b35c0fcdb5b0e463316"
+      url "https://github.com/paperfoot/seedance-cli/releases/download/v0.2.0/seedance-x86_64-darwin"
+      sha256 "3dbaac0c80787f652e15894d9b4f1ceefb5528f664bf772c0b2ae50321469508"
     end
   end
 
   on_linux do
-    url "https://github.com/paperfoot/seedance-cli/releases/download/v0.1.3/seedance-x86_64-linux"
-    sha256 "0091f00c15062285d7e7bd0262b7d5448e008226b374477823117117d6d2de22"
+    url "https://github.com/paperfoot/seedance-cli/releases/download/v0.2.0/seedance-x86_64-linux"
+    sha256 "44270fa6030cf6b970ac321019a76476b03bceaf826907d399689952794c5f7d"
   end
 
   def install
