@@ -1,10 +1,10 @@
 class Ritalin < Formula
   desc "Executive function for AI coding agents"
-  homepage "https://github.com/199-biotechnologies/ritalin"
-  url "https://github.com/199-biotechnologies/ritalin/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "5ece907533936f83d18f66737f9f5a0867b0088f0bcf66c557ebf919b0cba4a6"
+  homepage "https://github.com/paperfoot/ritalin-cli"
+  url "https://github.com/paperfoot/ritalin-cli/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "6c8ceb107e23103e6e76e94c6ff054215d025c080f2cfc7beec3ee0a08b0f7b8"
   license "MIT"
-  head "https://github.com/199-biotechnologies/ritalin.git", branch: "main"
+  head "https://github.com/paperfoot/ritalin-cli.git", branch: "main"
 
   depends_on "rust" => :build
 
