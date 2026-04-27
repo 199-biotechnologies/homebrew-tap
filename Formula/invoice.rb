@@ -15,19 +15,19 @@ class Invoice < Formula
   # no Rust toolchain required.
   on_macos do
     on_arm do
-      url "https://github.com/paperfoot/invoice-cli/releases/download/v0.5.9/invoice-v0.5.9-aarch64-apple-darwin.tar.gz"
-      sha256 "0d2133fb4336d3dcabd1ee91e689eb5eac965ea06e9708f9a7e3253e6c39e71a"
+      url "https://github.com/paperfoot/invoice-cli/releases/download/v0.5.10/invoice-v0.5.10-aarch64-apple-darwin.tar.gz"
+      sha256 "47aa4c134066475598b4f964cb00b538fae9461c558db4eb5ab6c86e6acc9fad"
     end
     on_intel do
-      url "https://github.com/paperfoot/invoice-cli/releases/download/v0.5.9/invoice-v0.5.9-x86_64-apple-darwin.tar.gz"
-      sha256 "5b2b5075e3f1ec3912b5d0bac79b84955be33b39c72c0a2441b59c984c680872"
+      url "https://github.com/paperfoot/invoice-cli/releases/download/v0.5.10/invoice-v0.5.10-x86_64-apple-darwin.tar.gz"
+      sha256 "337f902dc23e7613ea7159bd65d107f3a4e7078254f77db8d0f48c7c4acd3aa5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/paperfoot/invoice-cli/releases/download/v0.5.9/invoice-v0.5.9-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "649ccdf3fcb760c28168781a3914ff936ba2ecd5743a161bcafbcf53abe8a1fa"
+      url "https://github.com/paperfoot/invoice-cli/releases/download/v0.5.10/invoice-v0.5.10-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a5514deb33515065288e1255bdb51077b90a31641830a5b7f2434be3a8df4b01"
     end
   end
 
