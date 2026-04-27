@@ -1,7 +1,6 @@
 class Invoice < Formula
   desc "Beautiful invoices from the CLI — international, stateful, agent-friendly"
   homepage "https://github.com/paperfoot/invoice-cli"
-  version "0.5.9"
   license "MIT"
 
   # HEAD builds from source (compile fallback)
