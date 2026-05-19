@@ -5,15 +5,15 @@ class Xmaster < Formula
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/paperfoot/xmaster-cli/releases/download/v1.6.8/xmaster-aarch64-darwin"
-      sha256 "4ac295ad1b1fe6e1a9fd543b158cb6f6eebeaad1e76f5f9097f03a2a6ff49363"
+      url "https://github.com/paperfoot/xmaster-cli/releases/download/v1.7.0/xmaster-aarch64-darwin"
+      sha256 "7887a78f2421333e8a4227316c1250496708ec579e578e1a67ed41d2727107bc"
     else
-      url "https://github.com/paperfoot/xmaster-cli/releases/download/v1.6.8/xmaster-x86_64-darwin"
-      sha256 "7639a48878eeafd4df8c7f2e4b5c953b3c8e2fdd54dd7e5c7399ec5adc618551"
+      url "https://github.com/paperfoot/xmaster-cli/releases/download/v1.7.0/xmaster-x86_64-darwin"
+      sha256 "8ae029a4bd43ba454b404a86e778ffafc66e5496196db9674994d2a7d9ea2259"
     end
   elsif OS.linux?
-    url "https://github.com/paperfoot/xmaster-cli/releases/download/v1.6.8/xmaster-x86_64-linux"
-    sha256 "46f77a3d12bf8e296eafe4d6eb0ff4241a8cf0124283f5e44d295809755afaa8"
+    url "https://github.com/paperfoot/xmaster-cli/releases/download/v1.7.0/xmaster-x86_64-linux"
+    sha256 "5314338c6da67dcda5cf769359f1abca6db44787a435d2b7729fc30559ba4ad8"
   end
 
   def install
