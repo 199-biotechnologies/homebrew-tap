@@ -1,8 +1,8 @@
 class Ritalin < Formula
   desc "Executive function for AI coding agents"
   homepage "https://github.com/paperfoot/ritalin-cli"
-  url "https://github.com/paperfoot/ritalin-cli/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "18d269177db4e7329152b003d262872ad31117157c04ec80f5a813dfc1eae8a8"
+  url "https://github.com/paperfoot/ritalin-cli/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "89dea79137056f3fdffe1d4a743f17d5c5ebab464413345302a208d0ddf6c1cc"
   license "MIT"
   head "https://github.com/paperfoot/ritalin-cli.git", branch: "main"
 
